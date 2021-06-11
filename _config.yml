@@ -7,18 +7,13 @@ defaults:
       path: ""
       type: "authors"
     values:
-      layout: "author"
+      layout: "layout_3"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "layout_2"
   - scope:
       path: ""
     values:
-      layout: "default"
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+      layout: "layout_1"
